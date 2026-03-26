@@ -3,7 +3,7 @@ A python script to extract data from the glucosemeter  "Diagno Check Smart" for 
 
 ## Usage:
 
-`python3  diagno_data.py'
+`python3  diagno_data.py`
 
 it outputs to the terminal, if you want it to output to a .txt file, you can simply run it with:
 
