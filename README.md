@@ -8,3 +8,5 @@ A python script to extract data from the glucosemeter  "Diagno Check Smart" for 
 it outputs to the terminal, if you want it to output to a .txt file, you can simply run it with:
 
 `python3 diagno_data.py > glucometer_results.txt`
+
+You might wanna edit the ttyusb1 to ttyusb0 in `s = serial.Serial('/dev/ttyUSB1', 9600, timeout=3)`, it depends on your machine
